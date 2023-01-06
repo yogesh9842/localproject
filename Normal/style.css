@@ -1,0 +1,29 @@
+.wassup{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    height: 800px;;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    color: #fff;
+    font-size: 20px;
+    background-color: black;
+    flex-wrap: nowrap;
+    
+    
+    
+}
+.wassup .fine{
+    height: 100px;
+    width: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./image/kakaka.jpg');
+    background-size: cover;
+    
+
+}
+.fine::before{
+content: ". Wassup ";}

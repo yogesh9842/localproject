@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Nunito', sans-serif;
+
+        }
+
+        .wrapper {
+            display: grid;
+            gap: 30px;
+            padding: 30px;
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+
+
+        }
+
+        .wrapper .post figure {
+            margin: 0;
+        }
+
+        .wrapper img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            object-position: center center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        }
+
+        .wrapper article .info {
+            padding: 20px;
+        }
+
+        .wrapper article .title {
+            font-size: 32px;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        }
+
+        .wrapper article .text {
+            margin: 20px 0;
+        }
+
+        .wrapper article .btn {
+            background-color: orange;
+            color: #fff;
+            padding: 10px 32px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .wrapper article {
+            background-color: #fff;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        }
+
+        .wrapper article:hover {
+            position: relative;
+            transform: translateY(-8px);
+            cursor: pointer;
+            box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+
+        }
+
+        .wrapper article:hover .title {
+            color: green
+        }
+
+        .wrapper article:hover img {
+            filter: grayscale(1);
+
+
+        }
+
+        @media screen and (max-width: 500px) {
+            .wrapper {
+                grid-template-columns: 1fr;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <article class="post">
+            <figure>
+                <img src="./kakaka.jpg" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptates! At eos
+                    consectetur necessitatibus in!</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./lol.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime sapiente aspernatur
+                    error modi quis suscipit.</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./lolo.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsa harum a laboriosam
+                    unde similique?</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./lolol.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nemo quis nihil ex fuga
+                    sint?</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./lololo.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt rerum quos
+                    provident fugit quis!</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./olo.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsum possimus veritatis
+                    nobis, commodi tenetur.</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./momo.jpg" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quisquam maiores
+                    mollitia, tempora odio repellat.</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./ololo.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ea dignissimos ut, nisi ex
+                    incidunt!</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./lol.avif" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime sapiente aspernatur
+                    error modi quis suscipit.</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./kakaka.jpg" alt="">
+            </figure>
+            <div class="info">
+                <h3 class="title">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptates! At eos
+                    consectetur necessitatibus in!</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </div>
+        </article>
+    </div>
+</body>
+
+</html>

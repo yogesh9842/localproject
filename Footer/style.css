@@ -1,0 +1,162 @@
+.post{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 214, 226);
+    padding:0 30px;
+}
+a{
+    text-decoration: none;
+    color:rgb(39, 10, 117);
+}
+li{
+    list-style: none;
+}
+.first{
+    flex: 1;
+    border-right: 1px dotted tomato;
+}
+p{
+    margin-top: 0px;
+}
+ .post .logo ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    /* align-items: center; */
+    
+   
+}
+.post .logo ul li a{
+    height: 20px;
+    width: 20px;
+    background-color: #c41079;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.post .logo ul li a:hover{
+    background-color: #fff;
+    color: #c41079;
+    font-size: 20px;
+}
+
+h3{
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 8px;
+}
+.sec{
+    flex: 1;
+    border-right: 1px dotted tomato;
+    padding-left: 20px;
+
+}
+.post .sec ul{
+    margin-top: 0px;
+}
+.third{
+    flex: 1;
+    border-right: 1px dotted tomato;
+    padding-left:  20px; 
+
+}
+.post .third ul{
+    margin-top: 0px;
+}
+.last{
+    flex: 1;
+    border-right: 1px dotted tomato;
+    padding-left: 20px;
+
+}
+.last form{
+    display: flex;
+}
+.last input{
+    padding: 8px 10px;
+    border: none;
+}
+.post .last button{
+    margin: 0px;
+    padding: 8px 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.8s ease-in-out;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+.post .last button:hover{
+    background-color: #fff;
+    color: blue;
+}
+.post .last button span{
+    display: none;
+}
+.post .last button:hover span{
+    display: block;
+}
+.post .sec ul a:hover{
+    padding: 20px;
+    font-size: 20px;
+}
+.post .sec ul a{
+    transition: all 0.6s ease-in;
+}
+.post .sec ul li{
+    margin-top: 10px;
+}
+.post .sec ul i{
+    opacity: 0;
+}
+.post .sec ul a:hover i{
+    opacity: 1;
+}
+.post .third ul a:hover{
+    padding: 20px;
+    font-size: 20px;
+}
+.post .third ul a{
+    transition: all 0.6s ease-in;
+    margin-top: 10px;
+}
+.post .third ul i{
+    opacity: 0;
+}
+.post .third ul a:hover i{
+    opacity: 1;
+}
+.post .third ul li{
+    margin-top: 10px;
+}
+.feet{
+    /* border: 1px solid rgb(150, 59, 59); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.feet .idea {
+    display: flex;
+    gap: 20px;
+}
+.new{
+    margin: 30px 0;
+    padding: 30px;
+    background-color: aquamarine;
+}
+.new form input{
+    padding: 8px 5px;
+}
+.feet a{
+    color: rgba(255, 255, 255, 0.6);
+   
+}
+

@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary: #FE8437;
+    --secondary: #037EE2;
+    --primaryopacity:#dab39b;
+    --second: #e4eaee;
+}
+header img{
+    width: 80px;
+    height: 100%;
+    object-fit: cover;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+ul li a{
+    border: 1px solid var(--secondary);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--secondary);
+}
+ul li a:hover{
+    background-color: var(--secondary);
+    color: var(--second);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px;
+    background-color: var(--primaryopacity);
+    font-family: 'Oswald', sans-serif;
+    text-decoration: solid;
+    cursor: pointer;
+    color: var(--secondary);
+    
+
+
+}
+header figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* header form{
+    font-size: 30px;
+    align-items:center;
+    */
+
+header form input{
+    padding: 10px;
+    width: 200px;
+}
+header .icons .num{
+    right: -10px;
+}
+h2{
+    text-align: center;
+    color:var(--secondary);
+    text-decoration: underline;
+    margin: 10px 0px;
+}
+menu .post{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    /* padding: 30px 0px; */
+    background-color:var(--second);
+    border: 2px solid var(--secondary);
+    gap: 20px;
+}
+menu img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+menu .first .text{
+    font-style: italic;
+    color: var(--secondary);
+    padding: 0px;
+    font-weight: bold;
+
+    
+}
+menu .first{
+    /* border-right: 1px dotted var(--secondary); */
+    /* border: 5px solid var(--secondary);
+    outline: 8px solid var(--primary);
+    outline-offset: -10 px; */
+    /* outline-offset: 8px;
+    outline: 5px solid var(--primary); */
+
+
+
+}
+menu .sec{
+    border-right: 1px dotted var(--secondary);
+
+
+} 
+menu .sec .text{
+    font-style: italic;
+    color: var(--secondary);
+    margin: 0px;
+      
+}
+menu .third{
+    border-right: 1px dotted var(--secondary);
+
+}
+
+ 
+
+menu .third .text{
+    font-style: italic;
+    color: var(--secondary);
+    margin: 0px;
+      
+}  
+menu .forth{
+    /* border-right: 1px dotted var(--secondary); */
+
+}
+
+menu .forth .text{
+    font-style: italic;
+    color: var(--secondary);
+    margin: 0px; 
+}
+
+.btn{
+    margin: 20px;
+    padding: 5px 5px;
+    display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   column-gap: 5px;
+   font-weight: bold;
+   background-color: var(--secondary);
+   color: var(--second);
+   border: none;
+   border-radius: 2px;
+   transition: all 0.8s ease-in-out;
+
+}
+.btn:hover{
+    background-color:var(--primary);
+    color:var(--second);
+    cursor: pointer;
+}
+.btn span{
+    display: none;
+}
+.btn:hover span{
+    display: block;
+}
+section{
+    background-color: var(--primaryopacity);
+}
+section .variety{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 20px;
+    gap: 30px;
+    justify-content: space-between;
+
+}
+section .variety img{
+    width: 100%;
+    height: 300px;
+}
+section .Variety{
+    flex: 1;
+}
+   

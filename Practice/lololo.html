@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       .wrapper article .title{
+        font-size: 25px;
+        font-family: 'Rubik Gemstones', cursive;
+       }
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+            padding: 30px;
+            /* border-radius: 15px; */
+        }
+        .wrapper .btn{
+            transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            
+
+        }
+        .wrapper .post{
+            border-radius: 10px;
+        }
+        img{
+            height: 350px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+        .wrapper article .text{
+            margin: 20px 0;
+        }
+        .wrapper article{
+            box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+        }
+        .wrapper .post{
+            padding: 30px;
+        }
+        .wrapper article:nth-child(3){
+            grid-column: 1/4;
+        
+        }
+       
+        .wrapper .title:hover{
+            color: rgba(98, 12, 211, 0.9);
+
+        }
+        .wrapper article:hover{
+            cursor: pointer;
+            transform: translate(-10px);
+        }
+       .wrapper article img:hover{
+        position: relative;
+        filter: grayscale(1);
+       }
+       .wrapper .btn:hover{
+        background-color: orange;
+        border-radius: 20px;
+            width: 100px;
+            color: rgba(98, 12, 211, 0.9);
+       }
+       .wrapper .text:hover{
+        font-family: 'Caramel', cursive;
+        transition:  1sec ease-out;
+
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <article class="post">
+            <figure>
+                <img src="./images/clo.avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/diego-jimenez-A-NVHPka9Rk-unsplash.jpg" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/lol.jpg" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/lolo (1).avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/lolo (2).avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/lolo.avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/o.avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/sad.avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/wow.avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        <article class="post">
+            <figure>
+                <img src="./images/yes.avif" alt="">
+            </figure>
+            <div class="info">
+                <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, labore vel. Ipsum et necessitatibus consequuntur repellat praesentium eos, in odit?</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </article>
+        
+    </div>
+</body>
+</html>

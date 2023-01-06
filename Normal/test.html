@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner{
+            background-image: url("./image/kakaka.jpg");
+            height: 500px;
+            width: 700px;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        h3{
+            color: #fff;
+            font-size: 20px;
+            z-index: 1;
+            /* position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%); */
+        }
+
+    </style>
+</head>
+<body>
+<div class="banner">
+    <div class="overlay"></div>
+    <h3>Welcome To Imaginary World</h3>
+
+</div>
+</body>
+</html>
